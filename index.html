@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link href="./src/output.css" rel="stylesheet" />
+    <title>BLACKMOON</title>
+  </head>
+  <body class="overflow-x-hidden">
+    <header
+      class="fixed top-2 z-[9999] py-2 w-full mix-blend-difference transition-transform ease-linear duration-150"
+      data-aos="fade-down"
+      data-aos-duration="1000"
+      data-aos-delay="400"
+    >
+      <div class="container">
+        <div class="flex justify-between items-center w-full">
+          <div class="flex justify-center items-center">
+            <a href="">
+              <img src="public/logo.png" alt="logo" class="w-20 h-20" />
+            </a>
+          </div>
+
+          <div class="flex items-center gap-4">
+            <a href="#" class="text-lg font-semibold hover:text-gray-100">
+              HOME
+            </a>
+            <a href="#" class="text-lg font-semibold hover:text-gray-100">
+              GALLERY
+            </a>
+            <a href="#" class="text-lg font-semibold hover:text-gray-100">
+              TRAINING
+            </a>
+            <a href="#" class="text-lg font-semibold hover:text-gray-100">
+              PRICING
+            </a>
+            <a href="#" class="text-lg font-semibold hover:text-gray-100">
+              CONTACT
+            </a>
+          </div>
+
+          <div class="flex gap-2">
+            <a
+              href=""
+              class="px-8 py-2 border border-white rounded-2xl font-semibold hover:bg-white hover:text-black transition ease-linear duration-100"
+              >JOIN MEMBERSHIP</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <a href="#" class="to-top"><box-icon name='chevron-up'></box-icon></a>
+
+    <section
+      id="hero"
+      class="relative flex justify-center items-center min-h-screen backdrop-brightness-50 overflow-hidden"
+    >
+      <div
+        class="absolute inset-0 h-full w-full bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:48px_48px]"
+      ></div>
+      <div class="container">
+        <div class="flex flex-col justify-center items-center h-screen">
+          <img
+            src="public/hand.png"
+            alt="hand"
+            class="h-[65%] absolute -bottom-[5%] left-[35%] z-10"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          />
+          <img
+            src="public/ball.png"
+            alt="ball"
+            class="absolute top-[15%] left-[41%] w-[20%] z-10"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+          />
+          <div class="flex items-center justify-between w-full">
+            <h1
+              class="text-[10rem] text-gray-300 font-bitter font-bold cursor-default"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+            >
+              BLACK
+            </h1>
+            <h1
+              class="text-[10rem] text-gray-300 font-bitter font-bold cursor-default"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+            >
+              MOON
+            </h1>
+          </div>
+          <div
+            class="z-50 absolute bottom-12 left-[49%] flex flex-col items-center justify-center"
+          >
+            <box-icon
+              name="mouse"
+              class="w-8 h-8 fill-white animate-bounce"
+            ></box-icon>
+            <p>Scroll Down</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-16">
+      <div class="container">
+        <div class="flex flex-col justify-center items-center h-full gap-16">
+          <h1
+            class="w-[85%] text-4xl text-center text-gray-100"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+          >
+            <span class="text-white font-bold">Join</span>a thrilling and
+            <span class="text-white font-bold">vibrant gaming community!</span
+            >. We offer top-tier gameplay experiences tailored to
+            <span class="text-white font-bold">your style</span>, helping you level up and <span class="text-white font-bold">dominate the competition</span>.
+            With
+            <span class="text-white font-bold">flexible options and instant access,</span> means
+            you can dive into the action whenever it suits you—whether you're a casual player or a hardcore gamer.
+          </h1>
+
+          <!-- Stats -->
+          <div
+            class="flex items-center gap-8"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="600"
+          >
+            <div class="flex flex-col items-center gap-2">
+              <h1 class="font-bold text-4xl">100%</h1>
+              <p class="text-gray-100 text-lg font-semibold">Flexible</p>
+            </div>
+            <div class="flex flex-col items-center gap-2">
+              <h1 class="font-bold text-4xl">120+</h1>
+              <p class="text-gray-100 text-lg font-semibold">Games</p>
+            </div>
+            <div class="flex flex-col items-center gap-2">
+ 
+            </div>
+          </div>
+
+          <!-- Action -->
+          <div
+            class="flex items-center gap-6"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="800"
+          >
+            <button
+              class="py-2 px-6 border border-white rounded-2xl font-bold hover:bg-white hover:text-black transition ease-linear duration-100"
+            >
+              JOIN NOW!
+            </button>
+            <button class="py-2 px-6 border rounded-2xl font-bold gradient-bg">
+              WATCH STORY
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pt-16 pb-32 overflow-hidden">
+      <div class="container">
+        <div class="flex flex-col justify-center items-center gap-16">
+          <!-- Title -->
+          <div class="flex justify-between items-center w-full">
+            <h1
+              class="text-4xl font-bold font-bitter text-gray-100"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+            >
+              OUR <span class="text-white">POPULAR</span>
+            </h1>
+            <a
+              href="#"
+              class="text-lg hover:underline"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+              >See more</a
+            >
+          </div>
+
+          <!-- Mentors -->
+          <div class="grid grid-cols-4 gap-4">
+            <!-- Mentor Card -->
+            <div
+              class="flex flex-col gap-2 border border-gray-300 rounded-xl group"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+            >
+              <div class="relative rounded-xl flex justify-center items-center">
+                <img
+                  src="public/mentor.jpg"
+                  alt="mentor"
+                  class="rounded-xl group-hover:brightness-75 transition ease-linear duration-100"
+                />
+                <div
+                  class="absolute inset-0 bg-gradient-to-b from-transparent from-70% to-black z-[50]"
+                ></div>
+                <box-icon
+                  type="solid"
+                  name="right-top-arrow-circle"
+                  class="cursor-pointer w-12 h-12 fill-white absolute scale-0 hover:fill-gray-100 group-hover:scale-100 transition ease-linear duration-100 z-50"
+                ></box-icon>
+              </div>
+
+              <div class="py-1.5 px-3 text-center">
+                <h1 class="text-2xl font-bold">DELTA FORCE</h1>
+                <p class="text-gray-100">PC  AND MOBILE GAMEPLAY</p>
+              </div>
+            </div>
+
+            <!-- Mentor Card -->
+            <div
+              class="flex flex-col gap-2 border border-gray-300 rounded-xl group"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+            >
+              <div class="relative rounded-xl flex justify-center items-center">
+                <img
+                  src="public/mentor1.png"
+                  alt="mentor"
+                  class="rounded-xl group-hover:brightness-75 transition ease-linear duration-100"
+                />
+                <div
+                  class="absolute inset-0 bg-gradient-to-b from-transparent from-70% to-black z-[50]"
+                ></div>
+                <box-icon
+                  type="solid"
+                  name="right-top-arrow-circle"
+                  class="cursor-pointer w-12 h-12 fill-white absolute scale-0 hover:fill-gray-100 group-hover:scale-100 transition ease-linear duration-100 z-50"
+                ></box-icon>
+              </div>
+
+              <div class="py-1.5 px-3 text-center">
+                <h1 class="text-2xl font-bold">CALL OF DUTY MOBILE</h1>
+                <p class="text-gray-100">MOBILE GAMEPLAY</p>
+              </div>
+            </div>
+
+            <!-- Mentor Card -->
+            <div
+              class="flex flex-col gap-2 border border-gray-300 rounded-xl group"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="600"
+            >
+              <div class="relative rounded-xl flex justify-center items-center">
+                <img
+                  src="public/mentor3.png"
+                  alt="mentor"
+                  class="rounded-xl group-hover:brightness-75 transition ease-linear duration-100"
+                />
+                <div
+                  class="absolute inset-0 bg-gradient-to-b from-transparent from-70% to-black z-[50]"
+                ></div>
+                <box-icon
+                  type="solid"
+                  name="right-top-arrow-circle"
+                  class="cursor-pointer w-12 h-12 fill-white absolute scale-0 hover:fill-gray-100 group-hover:scale-100 transition ease-linear duration-100 z-50"
+                ></box-icon>
+              </div>
+
+              <div class="py-1.5 px-3 text-center">
+                <h1 class="text-2xl font-bold">BATTLEFIELD 2042</h1>
+                <p class="text-gray-100">PC GAMEPLAY</p>
+              </div>
+            </div>
+
+            <!-- Mentor Card -->
+            <div
+              class="flex flex-col gap-2 border border-gray-300 rounded-xl group"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="800"
+            >
+              <div class="relative rounded-xl flex justify-center items-center">
+                <img
+                  src="public/mentor2.png"
+                  alt="mentor"
+                  class="rounded-xl group-hover:brightness-75 transition ease-linear duration-100"
+                />
+                <div
+                  class="absolute inset-0 bg-gradient-to-b from-transparent from-70% to-black z-[50]"
+                ></div>
+                <box-icon
+                  type="solid"
+                  name="right-top-arrow-circle"
+                  class="cursor-pointer w-12 h-12 fill-white absolute scale-0 hover:fill-gray-100 group-hover:scale-100 transition ease-linear duration-100 z-50"
+                ></box-icon>
+              </div>
+
+              <div class="py-3 px-3 text-center">
+                <h1 class="text-2xl font-bold">ARENA BREAKOUT</h1>
+                <p class="text-gray-100">PC AND MOBILE GAMEPLAY</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-16 relative" id="membership">
+      <div class="container">
+        <div class="flex item-center h-[50vh]">
+          <div class="flex flex-col justify-center gap-6 w-1/2 z-20">
+            <div
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+            >
+              <img
+                src="public/quotation.png"
+                alt="quotation"
+                class="w-16 h-16"
+              />
+              <h1 class="text-3xl">
+                Blackmoon has completely changed the way I experience gaming. The sellers don’t just deliver gameplay—they elevate it! My skills, strategy, and in-game performance have reached new heights. If you're ready to dominate the leaderboards,Blackmoon is where your journey begins!
+              </h1>
+            </div>
+
+            <div
+              class="flex flex-col"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+            >
+              <h1 class="text-3xl font-bold"></h1>
+              <p class="text-gray-100">Membership</p>
+            </div>
+          </div>
+
+          <div class="flex w-1/2">
+            <img
+              src="public/membership.png"
+              alt="membership"
+              class="w-[70%] absolute bottom-0 -right-[5%] z-20"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-32">
+      <div class="container">
+        <div class="flex flex-col items-center justify-center gap-6">
+          <h1
+            class="text-5xl font-bitter font-bold"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
+            PRICING PLAN
+          </h1>
+
+          <div class="flex gap-4 w-full">
+            <div
+              class="flex flex-col gap-2 w-1/2 border border-gray-100 rounded-xl p-8"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+            >
+              <div class="flex justify-between items-center w-full">
+                <img src="public/logo.png" alt="logo" class="w-20 h-20" />
+                <p class="text-white text-2xl">$20/Normal</p>
+              </div>
+
+              <div class="flex flex-col gap-1">
+                <h1 class="font-bold text-2xl">NORMALGAMEPLAY</h1>
+                <p class="text-gray-100">
+                  Normal gameplay delivers smooth, balanced action—challenging yet fair, with intuitive controls and rewarding progression. Every move counts, keeping players engaged without frustration.
+                </p>
+              </div>
+
+              <hr class="border-none w-full p-[1px] bg-gray-100 my-4" />
+
+              <div class="flex flex-col justify-between gap-10 h-full">
+                <div class="flex flex-col gap-6">
+                  <h1 class="text-xl font-bold">INCLUDES:</h1>
+                  <div class="grid grid-cols-2 gap-4">
+                    <div class="flex items-center gap-2">
+                      <box-icon
+                        name="check"
+                        class="fill-white w-7 h-7"
+                      ></box-icon>
+                      <p class="text-md">Balanced Difficulty & Fair Challenges</p>
+                    </div>
+                    <div class="flex items-center gap-2">
+                      <box-icon
+                        name="check"
+                        class="fill-white w-7 h-7"
+                      ></box-icon>
+                      <p class="text-md">Smooth & Responsive Controls</p>
+                    </div>
+                    <div class="flex items-center gap-2">
+                      <box-icon
+                        name="check"
+                        class="fill-white w-7 h-7"
+                      ></box-icon>
+                      <p class="text-md">Engaging Progression System</p>
+                    </div>
+                    <div class="flex items-center gap-2">
+                      <box-icon
+                        name="check"
+                        class="fill-white w-7 h-7"
+                      ></box-icon>
+                      <p class="text-md">JDynamic & Interactive Environments</p>
+                    </div>
+                    <div class="flex items-center gap-2">
+                      <box-icon
+                        name="check"
+                        class="fill-white w-7 h-7"
+                      ></box-icon>
+                      <p class="text-md">
+                        Rewarding Skill-Based Mechanics
+                      </p>
+                    </div>
+                    <div class="flex items-center gap-2">
+                      <box-icon
+                        name="check"
+                        class="fill-white w-7 h-7"
+                      ></box-icon>
+                      <p class="text-md">Intuitive Controls for Seamless Play</p>
+                    </div>
+                  </div>
+                </div>
+
+                <button
+                  class="w-full p-2 border border-white rounded-3xl font-bold hover:bg-white hover:text-black transition ease-linear duration-100"
+                >
+                  CHOOSE PLAN
+                </button>
+              </div>
+            </div>
+
+            <div
+              class="flex flex-col gap-2 w-1/2 border border-gray-100 rounded-xl p-8"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+            >
+              <div class="flex justify-between items-center w-full">
+                <img src="public/logo.png" alt="logo" class="w-20 h-20" />
+                <p class="text-white text-2xl">$35/RANKUP</p>
+              </div>
+
+              <div class="flex flex-col gap-1">
+                <h1 class="font-bold text-2xl">RANKUP PLAN</h1>
+                <p class="text-gray-100">
+                  Rank-up gameplay tests your limits—demanding skill, strategy, and adaptability. Every win pushes you higher; every loss teaches a lesson. Climb, compete, and prove your dominance.
+                </p>
+              </div>
+
+              <hr class="border-none w-full p-[1px] bg-gray-100 my-4" />
+
+              <div class="flex flex-col justify-between gap-10 h-full">
+                <div class="flex flex-col gap-6">
+                  <h1 class="text-xl font-bold">INCLUDES:</h1>
+                  <div class="grid grid-cols-2 gap-4">
+                    <div class="flex items-center gap-2">
+                      <box-icon
+                        name="check"
+                        class="fill-white w-7 h-7"
+                      ></box-icon>
+                      <p class="text-md">Progressive Skill Challenges</p>
+                    </div>
+                    <div class="flex items-center gap-2">
+                      <box-icon
+                        name="check"
+                        class="fill-white w-7 h-7"
+                      ></box-icon>
+                      <p class="text-md">Competitive Matchmaking</p>
+                    </div>
+                    <div class="flex items-center gap-2">
+                      <box-icon
+                        name="check"
+                        class="fill-white w-7 h-7"
+                      ></box-icon>
+                      <p class="text-md">Ranked Rewards & Incentives</p>
+                    </div>
+                    <div class="flex items-center gap-2">
+                      <box-icon
+                        name="check"
+                        class="fill-white w-7 h-7"
+                      ></box-icon>
+                      <p class="text-md">Performance-Based Progression</p>
+                    </div>
+                    <div class="flex items-center gap-2">
+                      <box-icon
+                        name="check"
+                        class="fill-white w-7 h-7"
+                      ></box-icon>
+                      <p class="text-md">
+                        Adaptive AI Opponents
+                      </p>
+                    </div>
+                    <div class="flex items-center gap-2">
+                      <box-icon
+                        name="check"
+                        class="fill-white w-7 h-7"
+                      ></box-icon>
+                      <p class="text-md">Loss Forgiveness (Early Ranks)</p>
+                    </div>
+                    <div class="flex items-center gap-2">
+                      <box-icon
+                        name="check"
+                        class="fill-white w-7 h-7"
+                      ></box-icon>
+                      <p class="text-md">Promotion/Demotion Matches</p>
+                    </div>
+                    <div class="flex items-center gap-2">
+                      <box-icon
+                        name="check"
+                        class="fill-white w-7 h-7"
+                      ></box-icon>
+                      <p class="text-md">Leaderboard Tracking</p>
+                    </div>
+                    <div class="flex items-center gap-2">
+                      <box-icon
+                        name="check"
+                        class="fill-white w-7 h-7"
+                      ></box-icon>
+                      <p class="text-md">Seasonal Resets</p>
+                    </div>
+                    <div class="flex items-center gap-2">
+                      <box-icon
+                        name="check"
+                        class="fill-white w-7 h-7"
+                      ></box-icon>
+                      <p class="text-md">Elite Rank Perks</p>
+                    </div>
+                  </div>
+                </div>
+
+                <button
+                  class="w-full p-2 border border-white rounded-3xl font-bold hover:bg-white hover:text-black transition ease-linear duration-100"
+                >
+                  CHOOSE PLAN
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-16 overflow-hidden">
+      <div class="container">
+        <div class="flex justify-between items-center">
+          <div class="flex gap-8">
+            <div
+              class="flex items-center gap-2"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+            >
+              <div
+                class="p-2 border border-white rounded-[50%] flex justify-center items-center"
+              >
+                <box-icon name="home" class="w-8 h-8 fill-white"></box-icon>
+              </div>
+              <div class="flex flex-col">
+                <p class="text-md font-bold">Address</p>
+                <p class="text-gray-100 text-sm">BATTICALOA
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex items-center gap-2"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+            >
+              <div
+                class="p-2 border border-white rounded-[50%] flex justify-center items-center"
+              >
+                <box-icon
+                  name="phone"
+                  type="solid"
+                  class="w-8 h-8 fill-white"
+                ></box-icon>
+              </div>
+              <div class="flex flex-col">
+                <p class="text-md font-bold">Phone</p>
+                <p class="text-gray-100 text-sm">(072) 535-8946</p>
+              </div>
+            </div>
+            <div
+              class="flex items-center gap-2"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="600"
+            >
+              <div
+                class="p-2 border border-white rounded-[50%] flex justify-center items-center"
+              >
+                <box-icon
+                  name="envelope"
+                  type="solid"
+                  class="w-8 h-8 fill-white"
+                ></box-icon>
+              </div>
+              <div class="flex flex-col">
+                <p class="text-md font-bold">Email</p>
+                <p class="text-gray-100 text-sm">anusha94600@gmail.com</p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="flex justify-between bg-gray-300 py-2 px-4 w-[30%] rounded-[32px]"  data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="800"
+          >
+            <input
+              type="email"
+              placeholder="Email Address"
+              class="bg-transparent focus:outline-none w-[70%]"
+            />
+            <button
+              class="flex-1 p-2 rounded-3xl bg-gray-100 text-black font-bold"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer
+      class="py-16 pb-4 bg-black" data-aos="fade-up"
+      data-aos-duration="1000"
+      data-aos-delay="400"
+    >
+      <div class="container">
+        <div class="flex flex-col gap-12">
+          <div class="grid grid-cols-1 lg:grid-cols-4 gap-[60px]">
+            <!-- Branding and Description -->
+            <div class="flex flex-col gap-7">
+              <!-- Logo -->
+              <div class="w-full flex items-center gap-1">
+                <img
+                  src="public/logo.png"
+                  alt="logo"
+                  class="w-10 h-10 lg:w-8 lg:h-8"
+                />
+                <h1 class="font-bold text-[24px] lg:text-[22px] text-white">
+                  BLACKMOON
+                </h1>
+              </div>
+              <!-- Description -->
+              <p class="text-gray-100 font-medium leading-7 sm:w-1/2 lg:w-full">
+                Level up your game today with expert training and cutting-edge technology.
+              </p>
+
+              <!-- Social Media & Contact -->
+              <div class="w-full flex gap-4">
+                <div class="p-2 rounded-[50%] bg-white flex justify-center items-center">
+                  <box-icon name='envelope' type='solid' class="w-8 h-8"></box-icon>
+                </div>
+                <div class="p-2 rounded-[50%] bg-white flex justify-center items-center">
+                  <box-icon name='globe' class="w-8 h-8"></box-icon>
+                </div>
+                <div class="p-2 rounded-[50%] bg-white flex justify-center items-center">
+                  <box-icon name='phone' type='solid' class="w-8 h-8"></box-icon>
+                </div>
+                <div class="p-2 rounded-[50%] bg-white flex justify-center items-center">
+                  <box-icon name='home' type='solid' class="w-8 h-8"></box-icon>
+                </div>
+                
+              </div>
+            </div>
+
+            <!-- Product Section -->
+            <div class="flex flex-col gap-7">
+              <h3 class="text-white font-bold text-[18px]">Products</h3>
+              <ul class="flex flex-col gap-4">
+                <li>
+                  <a
+                    href="#"
+                    class="font-medium text-gray-100 hover:text-white transition ease-linear duration-150"
+                    >Powerfull Reports</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="font-medium text-gray-100 hover:text-white transition ease-linear duration-150"
+                    >Blockchain</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="font-medium text-gray-100 hover:text-white transition ease-linear duration-150"
+                    >Auto-Backup</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="font-medium text-gray-100 hover:text-white transition ease-linear duration-150"
+                    >Data Science</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="font-medium text-gray-100 hover:text-white transition ease-linear duration-150"
+                    >Auto-Scaling Up</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- Resources Section -->
+            <div class="flex flex-col gap-7">
+              <h3 class="text-white font-bold text-[18px]">Resources</h3>
+              <ul class="flex flex-col gap-4">
+                <li>
+                  <a
+                    href="#"
+                    class="font-medium text-gray-100 hover:text-white transition ease-linear duration-150"
+                    >Support 24/7</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="font-medium text-gray-100 hover:text-white transition ease-linear duration-150"
+                    >Help Center</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="font-medium text-gray-100 hover:text-white transition ease-linear duration-150"
+                    >How-to Instructions</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="font-medium text-gray-100 hover:text-white transition ease-linear duration-150"
+                    >Blog & Tips</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="font-medium text-gray-100 hover:text-white transition ease-linear duration-150"
+                    >About Us</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- Company Section -->
+            <div class="flex flex-col gap-7">
+              <h3 class="text-white font-bold text-[18px]">Company</h3>
+              <ul class="flex flex-col gap-4">
+                <li>
+                  <a
+                    href="#"
+                    class="font-medium text-gray-100 hover:text-white transition ease-linear duration-150"
+                    >Privacy and Policy</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="font-medium text-gray-100 hover:text-white transition ease-linear duration-150"
+                    >Terms and Conditions</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="font-medium text-gray-100 hover:text-white transition ease-linear duration-150"
+                    >Investor Relations</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="font-medium text-gray-100 hover:text-white transition ease-linear duration-150"
+                    >Join With Us</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="font-medium text-gray-100 hover:text-white transition ease-linear duration-150"
+                    >Our Statistics</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Copyright -->
+          <div class="w-full">
+            <p class="font-medium text-gray-100 text-center">
+              All Rights Reserved • Copyright BLACKMOON GAMEHUB by Jaseem 2025
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/public/js/script.js"></script>
+
+    <!-- Box Icon -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+    // Check if device is in portrait mode
+    function checkOrientation() {
+        if (window.innerHeight > window.innerWidth) {
+            alert("Please rotate your device to landscape mode!");
+            // Try to force landscape (may not work on all browsers)
+            if (screen.orientation && screen.orientation.lock) {
+                screen.orientation.lock('landscape').catch(e => {
+                    console.error("Failed to lock orientation:", e);
+                });
+            }
+        }
+    }
+
+    // Run on page load and when resized
+    window.addEventListener('load', checkOrientation);
+    window.addEventListener('resize', checkOrientation);
+</script>
+    </script>
+  </body>
+</html>
