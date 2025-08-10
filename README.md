@@ -1,6 +1,6 @@
 ## Disclaimer
 
-This source code is shared **for learning purposes only**. I created it to help beginners explore and experiment with coding techniques, and I’m happy to provide it freely for educational use.
+This source code is shared **for Blackmoon gamehub for only**. I created it to help beginners explore and experiment with coding techniques, and I’m happy to provide it freely for educational use.
 
 **Please respect the intent of this resource:**
 - Do not resell or distribute this code as-is for commercial purposes.
